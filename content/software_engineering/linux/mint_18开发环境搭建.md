@@ -7,9 +7,9 @@ Slug:
 Author: easyfun
 
 
-##1. 安装mint 18
+## 1. 安装mint 18
 
-xp下无法硬盘安装，使用U盘启动安装。
+### xp下无法硬盘安装，使用U盘启动安装。
 
 在mint官网下载iso镜像
 
@@ -18,7 +18,7 @@ xp下无法硬盘安装，使用U盘启动安装。
 U盘启动安装mint 18，遇到对话框显示不全时，光标移动到对话框上，按住ctrl+shift+alt+鼠标左键+移动鼠标，可以对话框
 
 
-修改工作源为阿里云
+### 修改工作源为阿里云
 
 Ubuntu/Mint更换阿里云源
 
@@ -40,11 +40,19 @@ Ubuntu/Mint更换阿里云源
     sudo apt-get update #更新列表
 
 
-更新系统
+### 更新系统
 安装Linux Mint 17后要做的20件事
 https://linux.cn/article-3353-1.html
 
-##2. 安装firefox
+### windows和linux系统时间不一致修复
+https://www.cnblogs.com/shareidea/p/5465306.html
+
+在Windows下的解决方法：
+
+1. 打开cmd
+2. 执行命令Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
+
+## 2. 安装firefox
 
 更新firefox
 
@@ -58,7 +66,7 @@ https://linux.cn/article-3353-1.html
 
     sudo cp ./libflashplayer.so /usr/lib/mozilla/plugins/
 
-3. 安装sublime text3
+## 3. 安装sublime text3
 
 安装sublime text3
 
@@ -70,18 +78,18 @@ https://www.cnblogs.com/wangkongming/p/4302642.html
 
 设置
 
-##4. locate命令的使用
+## 4. locate命令的使用
 
 https://www.cnblogs.com/flysnail/archive/2012/05/16/2504266.html
 
-##5. 安装jdk8
+## 5. 安装jdk8
 
 
-##6. 安装eclipse
+## 6. 安装eclipse
 
 https://www.jianshu.com/p/730db54aefab
 
-##7 安装mysql
+## 7 安装mysql
 
 安装mysql:sudo apt-get install mariadb-client,mariadb-server
 
