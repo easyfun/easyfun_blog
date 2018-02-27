@@ -119,3 +119,12 @@ mysql启动命令:
     停止mysql sudo service mysql stop
 
 
+## 8 druid监控
+
+非web项目如何配置Druid监控
+
+http://blog.csdn.net/goldenfish1919/article/details/68941237
+
+在dubbo工程中，使用druid监控
+
+http://www.mamicode.com/info-detail-2006074.html
